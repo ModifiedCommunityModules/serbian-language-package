@@ -1,0 +1,50 @@
+<div style="width:700px;margin: 0px auto;">
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr> 
+    	<td align="center" style="padding: 10px 0px;"><img src="{$logo_path}logo.gif" /></td>
+	</tr>
+	<tr> 
+    	<td style="font-size:14px;text-transform:uppercase;padding:10px 5px;border-top: 1px dotted #999;border-bottom: 1px dotted #999;">
+        <font face="Tahoma, Verdana, sans-serif">Status narud&#382;bine je promenjen</font>
+      </td>
+	</tr>
+	<tr> 
+		<td>
+        <br />
+        <font size="2" face="Tahoma, Verdana, sans-serif"><b>{if $GENDER == $smarty.const.MALE}Dragi gospodine{elseif $GENDER == $smarty.const.FEMALE}Draga gospo&#273;o/gospo&#273;ice{else} pozdrav{/if} {$NAME},</b>
+        <br /><br />
+        Status va&#353;e narud&#382;be {if $ORDER_NR} broj {$ORDER_NR}{/if} {if $ORDER_DATE}od {$ORDER_DATE}{/if} je promenjen.
+        
+        {if $ORDER_LINK}
+          <br /><br />
+          Veza do narud&#382;be: <a href="{$ORDER_LINK}">kliknite ovde</a>
+        {/if}
+                
+        {if $NOTIFY_COMMENTS}
+          <br /><br />
+          Bele&#353;ke o narud&#382;bi:<br />
+          {$NOTIFY_COMMENTS}
+        {/if}        
+        
+        <br /><br />
+        Novi status: <b>{$ORDER_STATUS}</b>
+
+        {if $PARCEL_COUNT > 0}
+          <br /><br />
+          Va&#353;a po&#353;iljka se sastoji od {$PARCEL_COUNT} parcela.<br />
+          Mo&#382;ete da se informi&#353;ete o statusu isporuke klikom na slede&#263;e brojeve paketa:<br />
+          {foreach name=aussen item=tracking_data from=$PARCEL_ARRAY}
+            <a target="_blank" href="{$tracking_data.tracking_link}">{$tracking_data.parcel_id}</a><br />
+          {/foreach}
+        {/if}
+
+        <br /><br />
+        Ako imate bilo kakvih pitanja, odgovorite na ovu e-poruku.        
+        
+        </font>
+		</td>
+	</tr>
+</table>
+
+[SIGNATUR]
+</div>

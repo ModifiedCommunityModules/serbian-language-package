@@ -1,0 +1,31 @@
+
+Hvala što ste se prijavili!
+
+{if isset($LINK)}
+Dobijate ovu e-poruku zato što želite da primate naše novosti.
+
+Kliknite na sledeću vezu za aktivaciju da biste primali biltene. Ako niste pretplaćeni na ovu uslugu, ignorišite ovu e-poštu!
+
+Vezu za aktivaciju:
+{$LINK}
+
+Ako niste registrovali za naše novosti ili ne želite da primate bilten, ignorišite vezu sa aktivacijom.
+
+Vaš pristanak na Dispečer naših biltena je opoziva u svakom trenutku. Bilten se šalje prema našoj politici privatnosti.
+{/if}
+
+{if $SEND_GIFT == true}
+Kao što vam je Hvala što ste kreirali nalog, primili ste {$GIFT _AMMOUNT} poklon-vaučera!
+
+Iskoristite svoj vaučer sa sledećim kodom -{$GIFT_CODE}- kada postavljate porudžbinu ili jednostavno tako što ćete kliknuti na sledeću vezu {$GIFT_LINK}.
+{/if}
+
+{if $SEND_COUPON == true}
+Kao što vam hvala što ste kreirali nalog, primili ste Vaučerski popust!
+
+Detalji vaučera su: {$COUPON_DESC}
+
+Iskoristite svoj vaučer unošenjem koda {$COUPON_CODE} tokom procesa odjave, kada se to od vas zatraži.
+{/if} 
+
+[SIGNATUR]

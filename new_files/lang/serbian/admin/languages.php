@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Jezici');
+define('TABLE_HEADING_LANGUAGE_NAME', 'Jezik');
+define('TABLE_HEADING_LANGUAGE_CODE', 'Kod');
+define('TABLE_HEADING_ACTION', 'Akcija');
+define('TEXT_INFO_EDIT_INTRO', 'Unesite sve potrebne promene');
+define('TEXT_INFO_LANGUAGE_NAME', 'Ime:');
+define('TEXT_INFO_LANGUAGE_CODE', 'Kod:');
+define('TEXT_INFO_LANGUAGE_IMAGE', 'Slika:');
+define('TEXT_INFO_LANGUAGE_DIRECTORY', 'Direktorijum:');
+define('TEXT_INFO_LANGUAGE_SORT_ORDER', 'Sortiranje:');
+define('TEXT_INFO_INSERT_INTRO', 'Unesite novi jezik sa povezanim podacima');
+define('TEXT_INFO_DELETE_INTRO', '&#382;elite li zaista da izbri&#353;ete ovaj jezik?');
+define('TEXT_INFO_HEADING_NEW_LANGUAGE', 'Novi jezik');
+define('TEXT_INFO_HEADING_EDIT_LANGUAGE', 'Ure&#273;ivanje jezika');
+define('TEXT_INFO_HEADING_DELETE_LANGUAGE', 'Izbri&#353;i jezik');
+define('TEXT_INFO_LANGUAGE_CHARSET','Charset');
+define('TEXT_INFO_LANGUAGE_CHARSET_INFO','meta-content:');
+define('ERROR_REMOVE_DEFAULT_LANGUAGE', 'Gre&#353;ka: podrazumevani jezik se ne mo&#382;e ukloniti. Postavite drugi jezik kao podrazumevani i poku&#353;ajte ponovo.');
+define('TEXT_INFO_LANGUAGE_STATUS', 'Status:');
+define('TABLE_HEADING_LANGUAGE_STATUS', 'Status');
+define('TEXT_INFO_LANGUAGE_STATUS_ADMIN', 'Status administratora:');
+define('TABLE_HEADING_LANGUAGE_STATUS_ADMIN', 'Status administratora');
+define ('TEXT_LANGUAGE_TRANSFER_INFO', 'Prenesi slede&#263;e jezi&#269;ke tabele');
+define ('TEXT_LANGUAGE_TRANSFER_BTN', 'Prenesi');
+define ('TEXT_LANGUAGE_TRANSFER_FROM', 'Sa');
+define ('TEXT_LANGUAGE_TRANSFER_TO', ' na ');
+define ('TEXT_LANGUAGE_TRANSFER_OK', 'Prenos uspe&#353;an!');
+define ('TEXT_LANGUAGE_TRANSFER_ERR', 'Izaberite drugi jezik!');
+define ('TEXT_LANGUAGE_TRANSFER_INFO2', '<strong>UPOZORENJE:</strong> Prilikom prenosa, postoje&#263;i tekstovi &#263;e biti zamenjeni, pa zato obavezno napravite rezervnu kopiju baze podataka.');
+?>

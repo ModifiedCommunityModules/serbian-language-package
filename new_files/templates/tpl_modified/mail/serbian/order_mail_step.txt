@@ -1,0 +1,68 @@
+{config_load file="$language/lang_$language.conf" section="duty_info"} 
+{$address_label_customer}
+
+{if $SHIPPING_METHOD}Način isporuke: {$SHIPPING_METHOD}{/if}
+{if $PAYMENT_METHOD}Način plaćanja: {$PAYMENT_METHOD}{/if}
+Broj narudžbe: {$oID}
+Datum: {$DATE}
+{if $csID}Korisnikov ID: {$csID}{/if}
+Vaša email adresa: {$EMAIL}
+{if $vatID}Vaš PDV id broj: {$vatID}{/if}
+----------------------------------------------------------------------
+
+
+Dragi {if $GENDER == 'm'}gospodine{elseif $GENDER == 'f'}gospođo/gospođice{else} Pozdrav{/if} {$NAME},
+
+hvala za vašu narudžbu.
+
+{if isset($NEW_PASSWORD) && $NEW_PASSWORD != ''}
+Vaš nalog je zaštićen šifrom.
+Možete promeniti šifru klikom na ovaj link: {$NEW_PASSWORD}
+{/if}
+
+{if $COMMENTS}
+Vaš komentar:
+{$COMMENTS}
+{/if}
+
+Naručili ste sledeće proizvode
+----------------------------------------------------------------------
+{foreach name=aussen item=order_values from=$order_data} 
+{$order_values.PRODUCTS_QTY} x {$order_values.PRODUCTS_NAME} {$order_values.PRODUCTS_PRICE}
+Broj proizvoda {$order_values.PRODUCTS_MODEL}{$order_values.PRODUCTS_ATTRIBUTES_MODEL}
+{if $order_values.PRODUCTS_ORDER_DESCRIPTION != ''}{$order_values.PRODUCTS_ORDER_DESCRIPTION}{/if}
+{if $order_values.PRODUCTS_SHIPPING_TIME != ''}Vreme isporuke: {$order_values.PRODUCTS_SHIPPING_TIME}{/if}
+{if $order_values.PRODUCTS_ATTRIBUTES != ''}{$order_values.PRODUCTS_ATTRIBUTES}{/if}
+
+{/foreach}
+
+{foreach name=aussen item=order_total_values from=$order_total}
+{$order_total_values.TITLE}{$order_total_values.TEXT}
+{/foreach}
+
+{$downloads_content_txt}
+
+{if $address_label_payment != $address_label_shipping}
+{if isset($SHIPPING_CLASS) && strstr($SHIPPING_CLASS, 'selfpickup')}Mesto preuzimanja {else}Adresa dostave{/if}
+----------------------------------------------------------------------
+{$address_label_shipping}{/if}
+
+{if $address_label_payment}
+{if $address_label_payment != $address_label_shipping}Mesto plaćanja{else}Mesto plaćanja/dostave{/if}
+----------------------------------------------------------------------
+{$address_label_payment}
+{/if}
+
+{if $DELIVERY_DUTY_INFO != ''}
+
+----------------------------------------------------------------------
+{#text_duty_info#}
+----------------------------------------------------------------------{/if}
+
+[SIGNATUR]
+
+{$REVOCATION_TXT}
+
+{$AGB_TXT}
+
+{$PRIVACY_POLICY_TXT}

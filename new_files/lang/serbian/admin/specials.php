@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Specijalni proizvodi');
+define('TABLE_HEADING_PRODUCTS', 'Proizvodi');
+define('TABLE_HEADING_PRODUCTS_QUANTITY', 'Koli&#269;ina proizvoda (Lager)');
+define('TABLE_HEADING_SPECIALS_QUANTITY', 'Koli&#269;ina posebnih');
+define('TABLE_HEADING_START_DATE', 'Po&#269;etni datum');
+define('TABLE_HEADING_EXPIRES_DATE', 'Datum isteka');
+define('TABLE_HEADING_PRODUCTS_PRICE', 'Cena proizvoda');
+define('TABLE_HEADING_STATUS', 'Status');
+define('TABLE_HEADING_ACTION', 'Akcija');
+define('TEXT_SPECIALS_PRODUCT', 'Proizvodi:');
+define('TEXT_SPECIALS_SPECIAL_PRICE', 'Specijalna cena:');
+define('TEXT_SPECIALS_SPECIAL_QUANTITY', 'Koli&#269;ina:');  
+define('TEXT_SPECIALS_START_DATE', 'Po&#269;etni datum: <small>(GGGG-MM-DD)</small>');
+define('TEXT_SPECIALS_EXPIRES_DATE', 'Datum isteka: <small>(GGGG-MM-DD)</small>');
+define('TEXT_INFO_DATE_ADDED', 'Datum dodavanja:');
+define('TEXT_INFO_LAST_MODIFIED', 'Poslednji put izmenjeno:');
+define('TEXT_INFO_NEW_PRICE', 'Nova cena:');
+define('TEXT_INFO_ORIGINAL_PRICE', 'Originalna cena:');
+define('TEXT_INFO_PERCENTAGE', 'Procenat:');
+define('TEXT_INFO_START_DATE', 'Po&#269;inje od:');
+define('TEXT_INFO_EXPIRES_DATE', 'Isti&#269;e na:');
+define('TEXT_INFO_STATUS_CHANGE', 'Deaktivirano na:');
+define('TEXT_INFO_HEADING_DELETE_SPECIALS', 'Brisanje specijalnih');
+define('TEXT_INFO_DELETE_INTRO', '&#381;elite li zaista da izbri&#353;ete specijalnu cenu proizvoda?');
+define('TEXT_IMAGE_NONEXISTENT','Nema dostupne slike!'); 
+define('TEXT_SPECIALS_PRICE_TIP', 'U polje "cena po ceni" mo&#382;ete uneti procenat za odbijanje, npr.: <strong>20%</strong><br>Ako unesete novu cenu, znak za razdvajanje decimala mora da bude \'.\' (decimalna ta&#269;ka), npr.: <strong>49.99</strong>');
+define('TEXT_SPECIALS_QUANTITY_TIP', 'Koli&#269;inu artikla mo&#382;ete uneti u polje <strong>Koli&#269;ina</strong> za proizvode se posebna cena odnosi na.<br>Mo&#382;ete da odlu&#269;ite da li &#382;elite da proverite zalihe specijala ili ne pod  "Konfiguracija" -> "Opcije lagera" -> "Proverite specijalne ponude".');
+define('TEXT_SPECIALS_START_DATE_TIP', 'Unesite datum od kada &#263;e se primenjivati cena ponude.<br>');
+define('TEXT_SPECIALS_EXPIRES_DATE_TIP', 'Ostavite <strong> datum isteka </strong> prazan da ne postoji vreme prestanka va&#382;enja.<br>');
+?>

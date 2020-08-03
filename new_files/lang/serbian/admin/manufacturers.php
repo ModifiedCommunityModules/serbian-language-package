@@ -1,0 +1,30 @@
+<?php
+define('HEADING_TITLE', 'Proizvo&#273;a&#269;i');
+define('TABLE_HEADING_MANUFACTURERS', 'Proizvo&#273;a&#269;i');
+define('TABLE_HEADING_ACTION', 'Akcija');
+define('TEXT_HEADING_NEW_MANUFACTURER', 'Novi proizvo&#273;a&#269;');
+define('TEXT_HEADING_EDIT_MANUFACTURER', 'Izmeni Proizvo&#273;a&#269;a');
+define('TEXT_HEADING_DELETE_MANUFACTURER', 'Izbri&#353;i Proizvo&#273;a&#269;a');
+define('TEXT_MANUFACTURERS', 'Proizvo&#273;a&#269;i:');
+define('TEXT_DATE_ADDED', 'Datum dodavanja:');
+define('TEXT_LAST_MODIFIED', 'Poslednji put menjano:');
+define('TEXT_PRODUCTS', 'Proizvodi:');
+define('TEXT_IMAGE_NONEXISTENT', 'SLIKA NE POSTOJI');
+define('TEXT_NEW_INTRO', 'Molimo vas da popunite slede&#263;e informacije za novog proizvo&#273;a&#269;a');
+define('TEXT_EDIT_INTRO', 'Unesite sve potrebne promene');
+define('TEXT_MANUFACTURERS_NAME', 'Ime proizvo&#273;a&#269;a:');
+define('TEXT_MANUFACTURERS_IMAGE', 'Slika proizvo&#273;a&#269;a:');
+define('TEXT_MANUFACTURERS_URL', 'URL proizvo&#273;a&#269;a:');
+define('TEXT_DELETE_INTRO', '&#381;elite li zaista da izbri&#353;ete ovog proizvo&#273;a&#269;a?');
+define('TEXT_DELETE_IMAGE', 'Izbri&#353;i sliku proizvo&#273;a&#269;a?');
+define('TEXT_DELETE_PRODUCTS', 'Izbri&#353;i proizvode ovog proizvo&#273;a&#269;a? (uklju&#269;uju&#263;i i preglede proizvoda, proizvode na specijalnim, predstoje&#263;im proizvodima)');
+define('TEXT_DELETE_WARNING_PRODUCTS', '<b>UPOZORENJE:</b> Evo %s proizvoda koji su jo&#353; povezani sa ovim proizvo&#273;a&#269;em!');
+define('ERROR_DIRECTORY_NOT_WRITEABLE', 'Gre&#353;ka: Ne mogu da pi&#353;em u ovom direktorijumu. Podesite prave korisni&#269;ke dozvole na: %s');
+define('ERROR_DIRECTORY_DOES_NOT_EXIST', 'Gre&#353;ka: Direktorijum ne postoji: %s');
+define('TEXT_CHARACTERS','znakova');
+define('TEXT_META_TITLE', 'Meta naslov:');
+define('TEXT_META_DESCRIPTION', 'Meta opis:');
+define('TEXT_META_KEYWORDS', 'Meta klju&#269;ne re&#269;i:');
+define('TEXT_MANUFACTURERS_DESCRIPTION', 'Opis proizvo&#273;a&#269;a:');
+define('TEXT_DELETE', 'Izbrisati');
+?>

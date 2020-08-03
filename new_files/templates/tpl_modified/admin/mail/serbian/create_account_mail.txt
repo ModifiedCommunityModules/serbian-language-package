@@ -1,0 +1,15 @@
+
+
+{if $GENDER == 'm'}Dragi gospodine{elseif $GENDER == 'f'}Draga gospođo/gospođice{else} pozdrav{/if} {$NAME},
+
+Upravo smo stvorili tvoj račun.
+
+{if $COMMENTS} Beleška: {$COMMENTS}{/if}
+
+Možete da se prijavite u našu prodavnicu sa vašom e-adresom i lozinkom:
+
+e-mail adresa:{$EMAIL}
+
+Lozinka: {$PASSWORD}
+
+[SIGNATUR]

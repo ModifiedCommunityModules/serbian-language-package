@@ -1,0 +1,12 @@
+
+{$MESSAGE}
+  
+Vrednost vaučera: {$AMMOUNT}
+    
+Kod vašeg vaučera je: {$GIFT_ID}
+
+Iskoristite svoj vaučer jednostavnim klikom na sledeću vezu - {$GIFT_LINK}.
+
+Ukoliko imate bilo kakvih poteškoća sa vezom, posetite našu Web lokaciju {$WEBSITE} i ručno unesite kod.
+
+[SIGNATUR]

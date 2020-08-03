@@ -1,0 +1,45 @@
+zoomtext = 'Za ve&#263;i prikaz kliknite na sli&#269;icu'
+products_desc = 'Opis proizvoda'
+products_fsk18_check = 'Ovaj &#269;lanak se mo&#382;e kupiti tek nakon provere uzrasta.'
+products_manufacturer_model = 'MPN:'
+products_tags = 'Funkcije'
+heading_products_tags = 'Funkcije proizvoda'
+
+first = '&laquo; prvi'
+back = '&laquo; nazad'
+overview = 'Pregled'
+next = 'slede&#263;i &raquo;'
+last = 'zadnji &raquo;'
+
+heading_miscellaneous = 'Metode pla&#263;anja'
+text_miscellaneous = 'Okvir mo&#382;e biti tpl_modified/boxes/box_miscellaneous.html promenjen. Promenljive jezika nalaze se u datoteci tpl_modified/lang/german/lang_german.custom.'
+
+ab_admin = 'Admin deo'
+ab_orders = 'Narud&#382;be'
+ab_contentmanager = 'Upravlja&#269; sadr&#382;ajem'
+ab_customers = 'Korisnici'
+ab_category = 'Kategorija/proizvodi'
+ab_logoff = 'Odjavljivanje'
+ab_news = 'Vesti'
+ab_offline = 'Prodavnica izvan mre&#382;e'
+ab_update = 'A&#382;uriranje'
+ab_support = 'Podr&#353;ku'
+ab_shop = 'Prodavnica'
+ab_caching = 'Ke&#353;iranje'
+
+ab_edit_content = 'Ure&#273;ivanje sadr&#382;aja'
+ab_edit_product = 'Uredi proizvod'
+ab_edit_attributes = 'Uredi atribute proizvoda'
+ab_edit_category = 'Uredi kategoriju'
+ab_edit_xsell = 'Uredi unakrsni prodajni'
+ab_edit_tags = 'Funkcije proizvoda'
+
+info_reviews = 'Kritike:'
+info_review = 'Kritika:'
+
+heading_trustedshops = 'Pouzdane prodavnice'
+
+text_search_again = '&#382;ao mi je, nismo mogli da prona&#273;emo proizvod koji se podudara sa va&#353;im re&#269;ima za pretra&#382;ivanje'
+
+listing_listview = 'Prikaz liste'
+listing_boxview = 'Prikaz okvira'

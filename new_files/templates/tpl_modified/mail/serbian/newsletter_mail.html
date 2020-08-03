@@ -1,0 +1,49 @@
+<div style="width:700px;margin: 0px auto;">
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr> 
+    	<td align="center" style="padding: 10px 0px;"><img src="{$logo_path}logo.gif" /></td>
+	</tr>
+	<tr> 
+    <td style="font-size:14px;text-transform:uppercase;padding:10px 5px;border-top: 1px dotted #999;border-bottom: 1px dotted #999;">
+      <font face="Tahoma, Verdana, sans-serif">Hvala &#353;to ste se prijavili</font>
+    </td>
+	</tr>
+	<tr> 
+		<td>
+      <br />
+      <font size="2" face="Tahoma, Verdana, sans-serif"><b>Hvala &#353;to ste se prijavili!</b><br />
+			<br />
+			{if isset($LINK)}
+			Dobijate ovu e-poruku zato &#353;to &#382;elite da primate na&#353;e novosti.<br />
+			<br />
+      Kliknite na slede&#263;u vezu za aktivaciju da biste primali biltene. Ako niste pretpla&#263;eni na ovu uslugu, ignori&#353;ite ovu e-po&#353;tu!<br />
+      <br />
+      <b>Vezu za aktivaciju:</b><br />
+      <a href="{$LINK}">{$LINK}</a><br />
+      <br />
+      Ako niste registrovali za na&#353;e novosti ili ne &#382;elite da primate bilten, ignori&#353;ite vezu sa aktivacijom.<br />
+      <br />
+      Va&#353; pristanak na Dispe&#269;er na&#353;ih biltena je opoziva u svakom trenutku. Bilten se &#353;alje prema na&#353;oj politici privatnosti.<br />
+      {/if}
+
+      {if $SEND_GIFT == true}
+      <br />
+      Kao &#353;to vam je Hvala &#353;to ste kreirali nalog, primili ste <b> {$GIFT_AMMOUNT} </b> poklon-vau&#269;era!<br />
+      <br />
+      Iskoristite svoj vau&#269;er sa slede&#263;im kodom <b> {$GIFT _CODE} </b> pri polaganju porud&#382;bine ili jednostavno klikom na slede&#263;u vezu
+      <a href="{$GIFT_LINK}">[redeem Voucher]</a>.<br />
+      {/if}
+
+      {if $SEND_COUPON == true}
+      <br />
+      Kao &#353;to vam hvala &#353;to ste kreirali nalog, primili ste Vau&#269;erski popust.<br />
+      Detalji vau&#269;era su: <b>{$COUPON_DESC}</b><br />
+       Iskoristite svoj vau&#269;er uno&#353;enjem koda {$COUPON _CODE} tokom procesa odjave, kada se to od vas zatra&#382;i.<br />
+      {/if}
+      </font>
+		</td>
+	</tr>
+</table>
+
+[SIGNATUR]
+</div>

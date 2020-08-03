@@ -1,0 +1,41 @@
+<div style="width:700px;margin: 0px auto;">
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr> 
+    	<td align="center" style="padding: 10px 0px;"><img src="{$logo_path}logo.gif" /></td>
+	</tr>
+	<tr> 
+    	<td style="font-size:14px;text-transform:uppercase;padding:10px 5px;border-top: 1px dotted #999;border-bottom: 1px dotted #999;">
+        <font face="Tahoma, Verdana, sans-serif">Upravo smo stvorili va&#353; korisni&#269;ki nalog</font>
+      </td>
+	</tr>
+	<tr> 
+		<td>
+        <br />
+        <font size="2" face="Tahoma, Verdana, sans-serif"><b>{if $GENDER == 'm'}Dragi gospodine{elseif $GENDER == 'f'}Draga gospo&#273;o/gospo&#273;ice{else} Pozdrav{/if} {$NAME},</b>
+        <br /><br />
+        upravo smo stvorili va&#353; korisni&#269;ki nalog.
+        
+        {if $COMMENTS} 
+          <br /><br />
+          Bele&#353;ke: {$COMMENTS} 
+        {/if}
+
+        <br /><br />
+         Mo&#382;ete da se prijavite u na&#353;u prodavnicu sa va&#353;om e-adresom i lozinkom:<br />
+        <br />
+        </font>
+        <table width="100%"  border="0" bgcolor="f1f1f1" cellpadding="5">
+				  <tr>
+            <td><font size="2" face="Tahoma, Verdana, sans-serif"><b>Va&#353;a e-mail adresa:</b> {$EMAIL}</font></td>
+          </tr>
+				  <tr>
+            <td><font size="2" face="Tahoma, Verdana, sans-serif"><b>Va&#353;a lozinka:</b> {$PASSWORD}</font></td>
+          </tr>
+        </table>
+
+		</td>
+	</tr>
+</table>
+
+[SIGNATUR]
+</div>

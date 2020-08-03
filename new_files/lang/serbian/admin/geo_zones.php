@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Poreske zone');
+define('TABLE_HEADING_COUNTRY', 'Zemlja');
+define('TABLE_HEADING_COUNTRY_ZONE', 'Zona');
+define('TABLE_HEADING_TAX_ZONES', 'Poreske zone');
+define('TABLE_HEADING_ACTION', 'Akcija');
+define('TEXT_INFO_HEADING_NEW_ZONE', 'Nova zona');
+define('TEXT_INFO_NEW_ZONE_INTRO', 'Unesite informacije o novoj zoni');
+define('TEXT_INFO_HEADING_EDIT_ZONE', 'Uredi zonu');
+define('TEXT_INFO_EDIT_ZONE_INTRO', 'Unesite sve potrebne promene');
+define('TEXT_INFO_HEADING_DELETE_ZONE', 'Izbri&#353;i zonu');
+define('TEXT_INFO_DELETE_ZONE_INTRO', '&#381;elite li zaista da izbri&#353;ete ovu zonu?');
+define('TEXT_INFO_HEADING_NEW_SUB_ZONE', 'Nova Podzona');
+define('TEXT_INFO_NEW_SUB_ZONE_INTRO', 'Unesite informacije o novoj podzoni');
+define('TEXT_INFO_HEADING_EDIT_SUB_ZONE', 'Uredi Podzonu');
+define('TEXT_INFO_EDIT_SUB_ZONE_INTRO', 'Unesite sve potrebne promene');
+define('TEXT_INFO_HEADING_DELETE_SUB_ZONE', 'Izbri&#353;i Podzonu');
+define('TEXT_INFO_DELETE_SUB_ZONE_INTRO', '&#381;elite li zaista da izbri&#353;ete ovu podzonu?');
+define('TEXT_INFO_DATE_ADDED', 'Datum dodavanja:');
+define('TEXT_INFO_LAST_MODIFIED', 'Poslednji put izmenjeno:');
+define('TEXT_INFO_ZONE_NAME', 'Ime zone:');
+define('TEXT_INFO_NUMBER_ZONES', 'Broj zona:');
+define('TEXT_INFO_ZONE_DESCRIPTION', 'Opis:');
+define('TEXT_INFO_COUNTRY', 'Zemlja:');
+define('TEXT_INFO_COUNTRY_ZONE', 'Zona:');
+define('TYPE_BELOW', 'Sve zone');
+define('PLEASE_SELECT', 'Sve zone');
+define('TEXT_ALL_COUNTRIES', 'Sve zemlje');
+define('TEXT_INFO_ZONE_INFO', 'Prika&#382;i informacije o du&#382;nosti za ovu zonu?');
+define('TEXT_INFO_ZONE_INFO_DEFAULT', 'Izabrane informacije o du&#382;nosti.');
+?>

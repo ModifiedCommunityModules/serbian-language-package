@@ -1,0 +1,23 @@
+
+{if $GENDER == $smarty.const.MALE}Dragi gospodine{elseif $GENDER == $smarty.const.FEMALE}Draga gospođo/gospođice{else} pozdrav{/if} {$NAME},
+
+Status vaše narudžbine {if $ORDER_NR} broj {$ORDER_NR}{/if} {if $ORDER_DATE} od {$ORDER_DATE}{/if} je pormenjen.
+
+{if $ORDER_LINK}Veza do narudžbe:
+{$ORDER_LINK} {/if}
+
+{if $NOTIFY_COMMENTS}Beleške o vašoj narudžbi:
+{$NOTIFY_COMMENTS}{/if}
+
+Novi status: {$ORDER_STATUS}
+
+{if $PARCEL_COUNT > 0}
+Vaša pošiljka se sastoji od {$PARCEL_COUNT} parcela.
+Možete da se informišete o statusu isporuke klikom na sledeće brojeve paketa:
+{foreach name=aussen item=tracking_data from=$PARCEL_ARRAY}
+{$tracking_data.tracking_link}
+{/foreach}{/if}
+
+Ako imate bilo kakvih pitanja, odgovorite na ovu e-poruku.
+
+[SIGNATUR]

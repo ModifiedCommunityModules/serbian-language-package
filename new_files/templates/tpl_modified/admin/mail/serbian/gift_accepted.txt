@@ -1,0 +1,8 @@
+
+{if $GENDER == 'm'}Dragi gospodine{elseif $GENDER == 'f'}Draga gospođo/gospođice{else} pozdrav{/if} {$NAME},
+
+Šifra vaučera koju ste kupili je aktivirana!
+Sada možete da preuzmete svoj Vaučerski i/ili da ga pošaljete nekome putem e-maila.
+Tvoj vaučer vredi {$AMMOUNT}.
+
+[SIGNATUR]

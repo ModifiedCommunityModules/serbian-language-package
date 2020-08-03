@@ -1,0 +1,53 @@
+<div style="width:700px;margin: 0px auto;">
+<table width="700" border="0" align="center" cellpadding="5" cellspacing="0">
+	<tr> 
+    	<td align="center" style="padding: 10px 0px;"><img src="{$logo_path}logo.gif" /></td>
+	</tr>
+	<tr> 
+    <td style="font-size:14px;text-transform:uppercase;padding:10px 5px;border-top: 1px dotted #999;border-bottom: 1px dotted #999;">
+      <font face="Tahoma, Verdana, sans-serif">Nalog je uspe&#353;no napravljen</font>
+    </td>
+	</tr>
+	<tr> 
+		<td>
+      <br />
+      <font size="2" face="Tahoma, Verdana, sans-serif"><b>{if $GENDER != ''}Dragi {$GENDER}{else}pozdrav{/if} {$NAME},</b><br />
+      <br />
+      va&#353; nalog je uspe&#353;no napravljen.<br />
+      Sad imate pristup slede&#263;im pogodnostim:<br />
+      <br />
+      <b>&#353;oping korpa</b> - Proizvodi sme&#353;teni u korpi za kupovinu osta&#263;e tamo dok ne budu izbrisani ili kupljeni.<br />
+      <br />
+      <b>Adresar</b> - Adresar vam omogu&#263;ava da sa&#269;uvate nekoliko razli&#269;itih destinacija za isporuku.<br />
+      <br />
+      <b>Istorija porud&#382;bina</b> - Va&#353;a istorija narud&#382;bina je uvek dostupna za vas.<br />
+      <br />
+      <b>Evaluacija proizvoda</b> - Ocenite i komentari&#353;ite na&#353;e proizvode.<br />
+      <br />
+      <u>Upozorenje:</u> Ako ovaj nalog nije napravljen od strane vas, 
+      molimo da na kontaktirate na: <a href="mailto:{$content.MAIL_REPLY_ADDRESS}">{$content.MAIL_REPLY_ADDRESS}</a><br />
+
+      {if $SEND_GIFT == true}
+      <br />
+      U znak zahvalnosti &#353;to ste kreirali nalog, primili ste <b>{$GIFT_AMMOUNT}</b> pklon vau&#269;er!<br />
+      <br />
+      Iskoristite svoj vau&#269;er sa slede&#263;im kodom <b> {$GIFT_CODE} </b> pri polaganju porud&#382;bine ili jednostavno klikom na slede&#263;u vezu
+      <a href="{$GIFT_LINK}">[redeem Voucher]</a>.<br />
+      {/if}
+
+      {if $SEND_COUPON == true}
+      <br />
+      U znak zahvalnosti dobili ste vau&#269;er za popust.<br />
+      Detalji o vau&#269;eru su: <b>{$COUPON_DESC}</b><br />
+      Iskoristite svoj vau&#269;er uno&#353;enjem koda {$COUPON _CODE} tokom procesa kupovine, kada se to od vas zatra&#382;i.<br />
+      {/if}
+      <br />
+      Ako imate pitanja molimo vas da nas kontaktirate na: <a href="mailto:{$content.MAIL_REPLY_ADDRESS}">{$content.MAIL_REPLY_ADDRESS}</a>
+      </font>
+
+		</td>
+	</tr>
+</table>
+
+[SIGNATUR]
+</div>

@@ -1,0 +1,31 @@
+<?php
+define('HEADING_TITLE', 'Po&#353;aljite poklon vau&#269;er kupcima');
+define('HEADING_COUPON_TITLE', 'Slanje kupona kupcima');
+define('TEXT_CUSTOMER_GROUP', 'Grupa kupaca:');
+define('TEXT_SUBJECT', 'Tema:');
+define('TEXT_FROM', 'Od:');
+define('TEXT_TO', 'E-po&#353;ta za:');
+define('TEXT_AMOUNT', 'Koli&#269;ina');
+define('TEXT_MESSAGE', 'Poruka:');
+define('TEXT_SINGLE_EMAIL', '<span class="smallText">Koristi ovo za slanje pojedina&#269;nih e-poruka, u suprotnom koristi padaju&#263;u listu</span>');
+define('TEXT_SELECT_CUSTOMER_GROUP', 'Izbor grupe kupaca');
+define('TEXT_ALL_CUSTOMERS', 'Svi korisnici');
+define('TEXT_NEWSLETTER_CUSTOMERS', 'Sve pretplatnike za newsletter');
+define('NOTICE_EMAIL_SENT_TO', 'Napomena: e-po&#353;ta poslata korporaciji: %s');
+define('ERROR_NO_CUSTOMER_SELECTED', 'Gre&#353;ka: nije izabran nijedan kupac.');
+define('ERROR_NO_AMOUNT_SELECTED', 'Gre&#353;ka: nije izabran nijedan iznos.');
+define('TEXT_GV_WORTH', 'Poklon vau&#269;er vredi ');
+define('TEXT_TO_REDEEM', 'Da biste preuzeli ovaj poklon vau&#269;er, kliknite na vezu ispod. Napi&#353;ite i &#353;ifru za iskupljenje');
+define('TEXT_WHICH_IS', ' koji je ');
+define('TEXT_IN_CASE', ' u slu&#269;aju da ima&#353; bilo kakvih problema.');
+define('TEXT_OR_VISIT', 'ili posetite ');
+define('TEXT_ENTER_CODE', ' i unesite &#353;ifru tokom procesa kupovine');
+define ('TEXT_REDEEM_COUPON_MESSAGE_HEADER', 'Nedavno ste kupili poklon vau&#269;er sa na&#353;eg sajta, iz bezbednosnih razloga, iznos poklon vau&#269;era nije odmah akreditovan za vas. Vlasnik prodavnice je sada izdao ovaj iznos.');
+define ('TEXT_REDEEM_COUPON_MESSAGE_AMOUNT', "\n\n" . 'Vrednost poklon vau&#269;era je bila %s');
+define ('TEXT_REDEEM_COUPON_MESSAGE_BODY', "\n\n" . 'Sada mo&#382;ete da posetite na&#353; sajt, da se prijavite i po&#353;aljete poklon vau&#269;er kome god &#382;elite.');
+define ('TEXT_REDEEM_COUPON_MESSAGE_FOOTER', "\n\n");
+define('COUPON_INFO', "\nVrednost kupona: "); 
+define('COUPON_FREE_SHIPPING', 'Besplatna dostava');
+define('COUPON_MINORDER_INFO', "\nMinimalna narud&#382;ba kupona: ");
+define('COUPON_RESTRICT_INFO', "\nOvaj kupon va&#382;i samo za odre&#273;ene proizvode!"); 
+?>

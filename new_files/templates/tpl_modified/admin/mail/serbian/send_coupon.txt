@@ -1,0 +1,9 @@
+{$MESSAGE}
+
+Iskorišćavanje kupona unošenjem broja kuponskog koda u naznačeni ulazni polje za šifre vaučera/kupona tokom odjave.
+
+Vaš kuponski kod je: {$COUPON_ID}
+
+Poštanski broj možete koristiti sledeći put kada nas posetite {$WEBSITE}.
+
+[SIGNATUR]

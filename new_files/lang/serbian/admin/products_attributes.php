@@ -1,0 +1,32 @@
+<?php
+define('HEADING_TITLE_OPT', 'Opcije proizvoda');
+define('HEADING_TITLE_VAL', 'Vrednosti opcije');
+define('HEADING_TITLE_ATRIB', 'Atributi proizvoda');
+define('TABLE_HEADING_ID', 'ID');
+define('TABLE_HEADING_PRODUCT', 'Naziv proizvoda');
+define('TABLE_HEADING_OPT_NAME', 'Ime opcije');
+define('TABLE_HEADING_OPT_VALUE', 'Vrednost opcije');
+define('TABLE_HEADING_ACTION', 'Akcije');
+define('TABLE_HEADING_SORTORDER', 'Sortiranje');
+define('TEXT_INFO_SEARCH', 'Pretraga: ');
+define('TEXT_INFO_OPTION_NAME', 'Ime:');
+define('TEXT_INFO_OPTION_SORT', 'Sortiranje:');
+define('TEXT_INFO_NUMBER_OPTION', 'Broj vrednosti:');
+define('TEXT_INFO_HEADING_NEW_OPTION', 'Nova funkcija');
+define('TEXT_INFO_NEW_OPTION_INTRO', 'Unesite novu funkciju koja sadr&#382;i sve relevantne podatke');
+define('TEXT_INFO_HEADING_EDIT_OPTION', 'Uredi funkciju');
+define('TEXT_INFO_EDIT_OPTION_INTRO', 'Unesite sve potrebne promene.');
+define('TEXT_INFO_HEADING_DELETE_OPTION', 'Izbri&#353;i funkciju');
+define('TEXT_INFO_DELETE_OPTION_INTRO', '&#381;elite li zaista da izbri&#353;ete ovu funkciju?');
+define('TEXT_WARNING_OF_DELETE', 'Ova opcija sadr&#382;i proizvode i vrednosti koje su povezane sa njom-nije bezbedno da je izbri&#353;ete.');
+define('TEXT_DISPLAY_NUMBER_OF_OPTIONS', 'Prika&#382;i <b>%d</b> do <b>%d</b> (od <b>%d</b> funkcije)');
+define('TEXT_INFO_VALUE_NAME', 'Vrednost:');
+define('TEXT_INFO_VALUE_SORT', 'Sortiranje:');
+define('TEXT_INFO_HEADING_NEW_VALUE', 'Nova vrednost');
+define('TEXT_INFO_NEW_VALUE_INTRO', 'Molimo unesite novi valva uklju&#269;uju&#263;i sve relevantne podatke');
+define('TEXT_INFO_HEADING_EDIT_VALUE', 'Uredi vrednost');
+define('TEXT_INFO_EDIT_VALUE_INTRO', 'Unesite sve potrebne promene.');
+define('TEXT_INFO_HEADING_DELETE_VALUE', 'Izbri&#353;i vrednost');
+define('TEXT_INFO_DELETE_VALUE_INTRO', '&#381;elite li zaista da izbri&#353;ete ovu vrednost?');
+define('TEXT_DISPLAY_NUMBER_OF_VALUES', 'Prikazivanje <b>%d</b> do <b>%d</b> (od <b>%d</b> vrednosti)');
+?>

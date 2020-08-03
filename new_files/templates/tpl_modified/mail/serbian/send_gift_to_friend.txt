@@ -1,0 +1,15 @@
+
+---------------------------------------------------------------------------------------- 
+PRIMILI STE POKLON VAUČER OD {$AMMOUNT} !
+----------------------------------------------------------------------------------------
+
+Ovaj poklon vaučera vam je poslat: {$FROM_NAME}
+
+Poruka:
+{$MESSAGE}
+
+Vaš kod vaučera je: {$GIFT_CODE}
+
+Iskoristite svoj vaučer pri polaganju porudžbine ili jednostavno klikom na sledeću vezu - {$GIFT_LINK}.
+
+[SIGNATUR]

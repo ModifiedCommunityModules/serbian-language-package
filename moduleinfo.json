@@ -1,0 +1,19 @@
+{
+    "name": "Sprachpaket serbisch",
+    "archiveName": "fishnetservices/serbian-language-package",
+    "sourceDir": "new_files",
+    "version": "auto",
+    "productNumber": "49006",
+    "shortDescription": "Sprachpaket serbisch",
+    "description": "Serbisches Sprachpaket ab Modified 2.0.5.0",
+    "price": "free",
+    "developer": "fishnetservices",
+    "developerWebsite": "https://www.shopbetreuung.com/",
+    "website": "https://www.shopbetreuung.com/",
+    "category": "Sprachpaketen",
+
+    "modifiedCompatibility": [
+        "2.0.5.0"
+    ]
+
+}

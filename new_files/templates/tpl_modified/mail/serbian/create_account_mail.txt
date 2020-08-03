@@ -1,0 +1,30 @@
+{if $GENDER != ''}Dragi {$GENDER}{else}Pozdrav{/if} {$NAME},
+
+Vaš nalog je uspešno kreiran!
+
+Sada imate pristup sledećim funkcijama:
+
+-Šoping korpa - Proizvodi smešteni u korpi za kupovinu ostaće tamo dok ne budu izbrisani ili kupljeni.
+-Adresar - Adresar vam omogućava da sačuvate nekoliko različitih destinacija za isporuku.
+-Istorija porudžbina - Vaša istorija narudžbina je uvek dostupna za vas.
+-Evaluacija proizvoda - Ocenite i komentarišite naše proizvode!
+
+Ako vam ovaj račun nije stvoren od strane vas, kontaktirajte nas na {$content.MAIL_REPLY_ADDRESS}.
+
+{if $SEND_GIFT == true}
+U znak zahvalnosti dobijate poklon vaučer u vrednosti od {$GIFT_AMMOUNT}!
+
+Iskoristite svoj vaučer sa sledećim kodom -{$GIFT_CODE}- kada postavljate porudžbinu ili jednostavno tako što ćete kliknuti na sledeću vezu {$GIFT_LINK}.
+{/if}
+
+{if $SEND_COUPON == true}
+U znak zahvalnosti što ste kreirali nalog, primili ste vaučer za popust!
+
+Detalji vaučera su: {$COUPON_DESC}
+
+Iskoristite svoj vaučer unošenjem koda {$COUPON _CODE} tokom procesa kupovine, kada se to od vas zatraži.
+{/if} 
+
+Ako imate bilo kakvih pitanja, kontaktirajte nas na {$content.MAIL_REPLY_ADDRESS}!
+
+[SIGNATUR]
