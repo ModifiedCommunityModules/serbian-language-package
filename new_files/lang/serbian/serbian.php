@@ -178,7 +178,7 @@ define('IMAGE_BUTTON_CHECKOUT', 'Kupovina');
 define('IMAGE_BUTTON_CONFIRM_ORDER', 'Kupi');
 define('IMAGE_BUTTON_CONTINUE', 'Dalje');
 define('IMAGE_BUTTON_DELETE', 'Obrisati');
-define('IMAGE_BUTTON_LOGIN', 'Prijaviti se');
+define('IMAGE_BUTTON_LOGIN', 'Prijavite se');
 define('IMAGE_BUTTON_IN_CART', 'Dodati u korpu');
 define('IMAGE_BUTTON_SEARCH', 'Tra&#382;i');
 define('IMAGE_BUTTON_UPDATE', 'A&#382;uriranje');
@@ -215,7 +215,7 @@ define('TEXT_GREETING_PERSONAL', 'Drago mi je &#353;to te opet vidim <span class
 
 &#381;elite li da pogledate na&#353;e <a href="%s">nove proizvode</a>?');
 define('TEXT_GREETING_PERSONAL_RELOGON', '<small>Ako niste %s , molimo vas da se <a href="%s">prijavite</a>  sa va&#353;im nalogom.</small>');
-define('TEXT_GREETING_GUEST', 'Dobrodo&#353;ao  <span class="greetUser">posetioce!</span> Da li &#382;elite da se <a href="%s">prijavite</a>? ili &#382;elite da napravite novi <a href="%s">nalog</a>?');
+define('TEXT_GREETING_GUEST', 'Dobrodo&#353;ao  <span class="greetUser">posetio&#269;e!</span> Da li &#382;elite da se <a href="%s">prijavite</a>? Ili &#382;elite da napravite novi <a href="%s">nalog</a>?');
 
 define('TEXT_SORT_PRODUCTS', 'Sortiranje stavki je ');
 define('TEXT_DESCENDINGLY', 'opadaju&#263;i');
@@ -458,9 +458,9 @@ define('FROM','od ');
 define('YOU_SAVE','vi sa&#269;uvate ');
 define('INSTEAD','Na&#353;a prethodna cena ');
 define('TXT_PER',' po ');
-define('TAX_INFO_INCL','%s PDV uklj.');
-define('TAX_INFO_EXCL','%s PDV neuklj.');
-define('TAX_INFO_ADD','%s PDV plus.');
+define('TAX_INFO_INCL',' uklj. %s PDV ');
+define('TAX_INFO_EXCL',' neuklj. %s PDV');
+define('TAX_INFO_ADD',' plus. %s PDV');
 define('SHIPPING_EXCL','neuklj.');
 define('SHIPPING_INCL','uklj.');
 define('SHIPPING_COSTS','Tro&#353;kovi isporuke'); 
