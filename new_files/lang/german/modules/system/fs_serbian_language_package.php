@@ -6,3 +6,4 @@ define('TEXT_LANGUAGE_CONFIGURATION', '<a href="languages.php"><strong>Hier</str
 define('TEXT_LANGUAGE_DESRIPTION', 'Serbisches Sprachpaket ab Modified 2.0.5.0');
 define('TEXT_ACTIVE', '<strong style="color:green;">Aktiviert</strong>');
 define('TEXT_INACTIVE', '<strong style="color:red;">Behinderte</strong>');
+define('TEXT_LANGUAGE_INSTALLED_SUCCESSFULLY', 'Sprache serbisch wurde erfolgreich installiert.  Wenn Sie Inhalte aus anderen Sprachen in diese Sprache kopieren m&ouml;chten, k&ouml;nnen Sie dies <a style="font-size:12px; color:green;" href="languages.php"><strong>hier</strong></a> tun.');

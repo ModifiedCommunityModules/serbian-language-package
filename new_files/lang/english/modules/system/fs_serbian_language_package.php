@@ -4,6 +4,6 @@ define('TEXT_LANGUAGE_STATUS', 'Language package status: %s');
 define('TEXT_LANGUAGE_STATUS_ADMIN', 'Language package status admin: %s');
 define('TEXT_LANGUAGE_CONFIGURATION', 'You can change configuration for language <a href="languages.php"><strong>here</strong></a> .');
 define('TEXT_LANGUAGE_DESRIPTION', 'Serbian language package for Modified from version 2.0.5.0.');
-define('TEXT_ACTIVE', '<strong style="color:green;">Enabled</strong>');
-define('TEXT_INACTIVE', '<strong style="color:red;">Disabled</strong>');
-
+define('TEXT_ACTIVE', '<strong style="color:green;">Active</strong>');
+define('TEXT_INACTIVE', '<strong style="color:red;">Inactive</strong>');
+define('TEXT_LANGUAGE_INSTALLED_SUCCESSFULLY', 'Serbian language was successfully installed.  If you want to copy content from other languages into this language, you can do so <a style="font-size:12px; color:green;" href="languages.php"><strong>here</strong></a>.');

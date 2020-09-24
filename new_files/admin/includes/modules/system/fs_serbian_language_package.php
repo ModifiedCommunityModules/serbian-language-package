@@ -63,7 +63,7 @@ class fs_serbian_language_package extends StdModule
       'directory' => 'serbian'
     ];
     $stdLanguageModule = new StdLanguageModule;
-    $stdLanguageModule->init($serbianLanguageData, 2);
+    $stdLanguageModule->init($serbianLanguageData, 0);
     parent::install();
   }
 

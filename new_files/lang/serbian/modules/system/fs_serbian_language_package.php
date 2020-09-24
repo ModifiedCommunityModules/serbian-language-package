@@ -6,3 +6,4 @@ define('TEXT_LANGUAGE_CONFIGURATION', '<a href="languages.php"><strong>Ovde</str
 define('TEXT_LANGUAGE_DESRIPTION', 'Srpski jezi&#x10D;ki paket za Modified od 2.0.5.0');
 define('TEXT_ACTIVE', '<strong style="color:green;">Uklju&#x10D;en</strong>');
 define('TEXT_INACTIVE', '<strong style="color:red;">Isklju&#x10D;en</strong>');
+define('TEXT_LANGUAGE_INSTALLED_SUCCESSFULLY', 'Srpski jezik je uspe&#x161;no instaliran. Ako &#x17E;elite da kopirate podatke od drugog jezika, to mo&#x17E;ete uraditi <a style="font-size:12px; color:green;" href="languages.php"><strong>ovde</strong></a>.');
