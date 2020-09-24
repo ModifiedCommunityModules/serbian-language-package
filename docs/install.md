@@ -1,11 +1,5 @@
-##### Während der Installation des Sprachpakets werden keine Änderungen an der Datenbank vorgenommen.
+##### Erstellen Sie vor der Installation dieses Moduls ein Backup der Datenbank.
 ---
-##### Nachdem wir das Modul in MMLC installiert haben, können wir eine neue Sprache in ***Land/Steuer -> Sprachen*** mit folgenden Daten erstellen:
-
-- Name: Srpski
-- Codierung: sr
-- Charset: utf-8
-- Symbol: icon.gif
-- Verzeichnis: serbian
-
-### Für dieses Modul sind keine manuellen Änderungen erforderlich.
+##### Gehen Sie nach der Installation zum Admin-Menü, ***System Module -> Sprachpaket serbisch*** und drücken Sie auf Installieren.
+---
+##### Für dieses Modul sind keine manuellen Änderungen erforderlich.
