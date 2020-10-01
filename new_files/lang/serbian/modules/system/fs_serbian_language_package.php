@@ -7,3 +7,5 @@ define('TEXT_LANGUAGE_DESRIPTION', 'Srpski jezi&#x10D;ki paket za Modified od 2.
 define('TEXT_ACTIVE', '<strong style="color:green;">Uklju&#x10D;en</strong>');
 define('TEXT_INACTIVE', '<strong style="color:red;">Isklju&#x10D;en</strong>');
 define('TEXT_LANGUAGE_INSTALLED_SUCCESSFULLY', 'Srpski jezik je uspe&#x161;no instaliran. Ako &#x17E;elite da kopirate podatke od drugog jezika, to mo&#x17E;ete uraditi <a style="font-size:12px; color:green;" href="languages.php"><strong>ovde</strong></a>.');
+define('TEXT_DELETE_LANGUAGE_CONFIRM', 'Da li ste sigurni da &#x17E;elite da obri&#x161;ete modul?<br /><br /><b>UPOZORENJE</b>: Svi podaci za proizvode, kategorije i sadr&#x17E;aj prodavnice &#x107;e biti obrisani za ovaj jezik!');
+define('TEXT_DELETE_LANGUAGE_DEFAULT_CONFIRM', '<b>UPOZORENJE</b>: Ne mo&#x17E;ete obrisati ovaj modul, ovo je standardni jezik prodavnice.');

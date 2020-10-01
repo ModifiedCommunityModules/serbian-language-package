@@ -45,9 +45,8 @@ class fs_serbian_language_package extends StdModule
     $description .= sprintf(TEXT_LANGUAGE_STATUS, $languages_id_result['status'] == 1 ? TEXT_ACTIVE : TEXT_INACTIVE);
     $description .= '<br/><br/>' . sprintf(TEXT_LANGUAGE_STATUS_ADMIN, $languages_id_result['status_admin'] == 1 ? TEXT_ACTIVE : TEXT_INACTIVE);
 
-    return [
-      'text' => $description . '<br /><div align="center">' . xtc_button(BUTTON_EDIT) .
-                xtc_button_link(BUTTON_CANCEL, xtc_href_link(FILENAME_MODULE_EXPORT, 'set=' . $_GET['set'] . '&module=fs_serbian_language_package')) . "</div>"];
+    return ['text' => $description . '<br /><div align="center">' . xtc_button(BUTTON_EDIT) .
+            xtc_button_link(BUTTON_CANCEL, xtc_href_link(FILENAME_MODULE_EXPORT, 'set=' . $_GET['set'] . '&module=fs_serbian_language_package')) . "</div>"];
   }
     
   function install() 
@@ -71,32 +70,10 @@ class fs_serbian_language_package extends StdModule
 
   function remove() 
   {
-    $languages_id_query = xtc_db_query("SELECT languages_id FROM " . TABLE_LANGUAGES . " WHERE code='sr'");
-    $languages_id_result = xtc_db_fetch_array($languages_id_query);
-    if (isset($languages_id_result['languages_id'])) {
-      $this->deleteLanguage($languages_id_result['languages_id']);
-    }
+    $stdLanguageModule = new StdLanguageModule;
+    $stdLanguageModule->setLanguageIdByCode('sr');
+    $stdLanguageModule->deleteLanguage();
     parent::remove();
   }
 
-  /**
-   * Delete all data for given languages id
-   *
-   * @param string $languagesId
-   * @return void
-   */
-  private function deleteLanguage($languagesId)
-  {
-    xtc_db_query("DELETE FROM " . TABLE_LANGUAGES . " WHERE languages_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_CATEGORIES_DESCRIPTION . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_PRODUCTS_DESCRIPTION . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_PRODUCTS_OPTIONS . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_PRODUCTS_OPTIONS_VALUES . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_MANUFACTURERS_INFO . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_ORDERS_STATUS . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_SHIPPING_STATUS . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_PRODUCTS_XSELL_GROUPS . " WHERE language_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_CONTENT_MANAGER . " WHERE languages_id = '" . $languagesId . "'");
-    xtc_db_query("DELETE FROM " . TABLE_PRODUCTS_CONTENT . " WHERE languages_id = '" . $languagesId . "'");
-  }
 }

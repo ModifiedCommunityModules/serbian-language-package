@@ -7,3 +7,5 @@ define('TEXT_LANGUAGE_DESRIPTION', 'Serbian language package for Modified from v
 define('TEXT_ACTIVE', '<strong style="color:green;">Active</strong>');
 define('TEXT_INACTIVE', '<strong style="color:red;">Inactive</strong>');
 define('TEXT_LANGUAGE_INSTALLED_SUCCESSFULLY', 'Serbian language was successfully installed.  If you want to copy content from other languages into this language, you can do so <a style="font-size:12px; color:green;" href="languages.php"><strong>here</strong></a>.');
+define('TEXT_DELETE_LANGUAGE_CONFIRM', 'Do you want to uninstall the module?<br /><br /><b>WARNING</b>: All data for articles, categories and content will also be deleted in this language!');
+define('TEXT_DELETE_LANGUAGE_DEFAULT_CONFIRM', '<b>WARNING</b>: You can\'t delete this module, because this is the default language of the store.');
