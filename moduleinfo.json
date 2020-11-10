@@ -1,19 +1,23 @@
 {
     "name": "Sprachpaket serbisch",
-    "archiveName": "fishnetservices/serbian-language-package",
+    "archiveName": "modifiedcommunitymodules/serbian-language-package",
     "sourceDir": "new_files",
     "version": "auto",
-    "tags": "49006",
+	
     "shortDescription": "Sprachpaket serbisch",
     "description": "Serbisches Sprachpaket ab Modified 2.0.5.0",
-    "price": "free",
-    "developer": "fishnetservices",
+	
+	"developer": "fishnetservices",
     "developerWebsite": "https://www.shopbetreuung.com/",
-    "website": "https://www.shopbetreuung.com/",
+    "website": "https://www.modified-shop.org/forum/index.php?topic=41256.0",
+	
+    "price": "free",
     "category": "language",
+	
     "modifiedCompatibility": [
         "2.0.5.0", "2.0.5.1"
     ],
+	
     "require": {
         "composer/autoload": "^1.1.0",
         "robinthehood/modified-std-module": "^0.1.0",
