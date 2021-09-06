@@ -28,4 +28,5 @@ define('TEXT_SPECIALS_PRICE_TIP', 'U polje "cena po ceni" mo&#382;ete uneti proc
 define('TEXT_SPECIALS_QUANTITY_TIP', 'Koli&#269;inu artikla mo&#382;ete uneti u polje <strong>Koli&#269;ina</strong> za proizvode se posebna cena odnosi na.<br>Mo&#382;ete da odlu&#269;ite da li &#382;elite da proverite zalihe specijala ili ne pod  "Konfiguracija" -> "Opcije lagera" -> "Proverite specijalne ponude".');
 define('TEXT_SPECIALS_START_DATE_TIP', 'Unesite datum od kada &#263;e se primenjivati cena ponude.<br>');
 define('TEXT_SPECIALS_EXPIRES_DATE_TIP', 'Ostavite <strong> datum isteka </strong> prazan da ne postoji vreme prestanka va&#382;enja.<br>');
+define('TABLE_HEADING_EDIT', 'Izmeni');
 ?>

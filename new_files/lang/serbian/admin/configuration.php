@@ -117,6 +117,8 @@ define('MAX_DISPLAY_BESTSELLERS_DAYS_TITLE' , 'Maksimalna starost (dani) za najb
 define('MAX_DISPLAY_BESTSELLERS_DAYS_DESC' , 'Maksimalna starost (u danima) da bi proizvodi bili prikazani kao "najprodavaniji"');
 define('MAX_DISPLAY_ALSO_PURCHASED_TITLE' , 'Tako&#273;e kupljeni');
 define('MAX_DISPLAY_ALSO_PURCHASED_DESC' , 'Maksimalni broj proizvoda za prikaz u  "ovaj kupac je tako&#273;e kupio"');
+define('MAX_DISPLAY_ALSO_PURCHASED_ORDERS_TITLE' , 'Broj narud&zcaron;bina &quot;Tako&dstrok;e kupljeno"');
+define('MAX_DISPLAY_ALSO_PURCHASED_ORDERS_DESC' , 'Maksimalan broj porud&zcaron;bina koje se mogu pretra&zcaron;ivati radi identifikacije artikala koji su tako&dstrok;e kupljeni.');
 define('MAX_DISPLAY_PRODUCTS_IN_ORDER_HISTORY_BOX_TITLE' , 'Okvir "Istorija porud&#382;bina kupca"');
 define('MAX_DISPLAY_PRODUCTS_IN_ORDER_HISTORY_BOX_DESC' , 'Maksimalni broj proizvoda koji se prikazuju u okviru "Istorija porud&#382;bina kupca"');
 define('MAX_DISPLAY_ORDER_HISTORY_TITLE' , 'Istorija porud&#382;bina');
@@ -125,6 +127,47 @@ define('MAX_PRODUCTS_QTY_TITLE', 'Maksimalna koli&#269;ina');
 define('MAX_PRODUCTS_QTY_DESC', 'Maksimalna koli&#269;ina po proizvodu u korpi');
 define('MAX_DISPLAY_NEW_PRODUCTS_DAYS_TITLE' , 'Maksimalna starost (dani) za nove proizvode');
 define('MAX_DISPLAY_NEW_PRODUCTS_DAYS_DESC' , 'Maksimalna starost (u danima) za proizvode koji &#263;e biti prikazani kao "Novi proizvodi"');
+
+define('PRODUCT_IMAGE_MINI_WIDTH_TITLE' , '&Scaron;irina &ccaron;lanka mini slike');
+define('PRODUCT_IMAGE_MINI_WIDTH_DESC' , 'Maksimalna &scaron;irina mini proizvoda u pikselima. (Podrazumevano: 80). Sa vec&#x301;im vrednostima, "productPreviewImage" c&#x301;e mo&zcaron;da morati da se prilagodi u datoteci stylesheet.css.');
+define('PRODUCT_IMAGE_MINI_HEIGHT_TITLE' , 'Visina mini slike proizvoda');
+define('PRODUCT_IMAGE_MINI_HEIGHT_DESC' , 'Maksimalna visina mini slike proizvoda u pikselima. (Podrazumevano: 80)');
+
+define('PRODUCT_IMAGE_MIDI_WIDTH_TITLE' , '&Scaron;irina midi slike proizvoda');
+define('PRODUCT_IMAGE_MIDI_WIDTH_DESC' , 'Maksimalna &scaron;irina midi proizvoda u pikselima. (Podrazumevano: 160). Sa vec&#x301;im vrednostima, "productPreviewImage" ćc&#x301;e mo&zcaron;da morati da se prilagodi u datoteci stylesheet.css.');
+define('PRODUCT_IMAGE_MIDI_HEIGHT_TITLE' , 'Visina midi slike proizvoda');
+define('PRODUCT_IMAGE_MIDI_HEIGHT_DESC' , 'Maksimalna visina midi &ccaron;lanka u pikselima. (Podrazumevano: 160)');
+
+define('CATEGORIES_IMAGE_WIDTH_TITLE' , '&Scaron;irina slika kategorije');
+define('CATEGORIES_IMAGE_WIDTH_DESC' , 'Maksimalna &scaron;irina kategorije Slike u pikselima. (Podrazumevano: 985).');
+define('CATEGORIES_IMAGE_HEIGHT_TITLE' , 'Visina slika kategorije');
+define('CATEGORIES_IMAGE_HEIGHT_DESC' , 'Maksimalna visina kategorije Slike u pikselima. (Standardno: 370)');
+
+define('CATEGORIES_IMAGE_MOBILE_WIDTH_TITLE' , '&Scaron;irina kategorije Slike Mobilni');
+define('CATEGORIES_IMAGE_MOBILE_WIDTH_DESC' , 'Maksimalna &scaron;irina kategorije Slike za mobilne ure&dstrok;aje u pikselima. (Standard: 600).');
+define('CATEGORIES_IMAGE_MOBILE_HEIGHT_TITLE' , 'Visina kategorije Slike Mobilni');
+define('CATEGORIES_IMAGE_MOBILE_HEIGHT_DESC' , 'Maksimalna visina kategorije Slike za mobilne uređaje u pikselima. (Podrazumevano: 400)');
+
+define('CATEGORIES_IMAGE_LIST_WIDTH_TITLE' , '&Scaron;irina popisa slika kategorije');
+define('CATEGORIES_IMAGE_LIST_WIDTH_DESC' , 'Maksimalna &scaron;irina popisa slika kategorije u pikselima. (Podrazumevano: 225).');
+define('CATEGORIES_IMAGE_LIST_HEIGHT_TITLE' , 'Visina liste slika kategorije');
+define('CATEGORIES_IMAGE_LIST_HEIGHT_DESC' , 'Maksimalna visina liste slika kategorije u pikselima. (Podrazumevano: 170)');
+
+define('MANUFACTURER_IMAGE_WIDTH_TITLE' , '&Scaron;irina slika proizvo&dstrok;a&ccaron;a');
+define('MANUFACTURER_IMAGE_WIDTH_DESC' , 'Maksimalna &scaron;irina slika proizvo&dstrok;a&ccaron;a u pikselima. (Podrazumevano: 100).');
+define('MANUFACTURER_IMAGE_HEIGHT_TITLE' , 'Visina slika proizvo&dstrok;a&ccaron;a');
+define('MANUFACTURER_IMAGE_HEIGHT_DESC' , 'Maksimalna visina slika proizvo&dstrok;a&ccaron;a u pikselima. (Podrazumevano: 60)');
+
+define('BANNERS_IMAGE_WIDTH_TITLE' , '&Scaron;irina slika banera');
+define('BANNERS_IMAGE_WIDTH_DESC' , 'Maksimalna &scaron;irina slika banera u pikselima. (Podrazumevano: 985).');
+define('BANNERS_IMAGE_HEIGHT_TITLE' , 'Visina slika banera');
+define('BANNERS_IMAGE_HEIGHT_DESC' , 'Maksimalna visina slika banera u pikselima. (Podrazumevano: 400)');
+
+define('BANNERS_IMAGE_MOBILE_WIDTH_TITLE' , '&Scaron;irina slike banera za mobilni');
+define('BANNERS_IMAGE_MOBILE_WIDTH_DESC' , 'Maksimalna &scaron;irina slika mobilnog banera u pikselima. (Standardno: 600).');
+define('BANNERS_IMAGE_MOBILE_HEIGHT_TITLE' , 'Visina slike banera za mobilni');
+define('BANNERS_IMAGE_MOBILE_HEIGHT_DESC' , 'Maksimalna visina slika mobilnog banera u pikselima. (Podrazumevano: 400)');
+
 define('PRODUCT_IMAGE_THUMBNAIL_WIDTH_TITLE' , '&#352;irina sli&#269;ica proizvoda');
 define('PRODUCT_IMAGE_THUMBNAIL_WIDTH_DESC' , 'Maksimalna &#353;irina sli&#269;ica proizvoda (u pikselima) (standard: 160). Za ve&#263;e vrednosti mogu&#263;e je da je "slika" proizvodnog prikaza korigovana u datoteci opis stila CSS.');
 define('PRODUCT_IMAGE_THUMBNAIL_HEIGHT_TITLE' , 'Visina sli&#269;ica proizvoda');
@@ -155,6 +198,13 @@ define('PRODUCT_IMAGE_INFO_MERGE_TITLE' , 'Slike proizvoda: objedinjavanje');
 define('PRODUCT_IMAGE_INFO_MERGE_DESC' , 'Slike proizvoda: objedinjavanje<br /><br />Podrazumevane vrednosti: (overlay.gif,10,-50,60,FF0000)<br /><br />overlay merge image<br />Kori&#353;&#263;enje:<br />(slika za objedinjavanje,x start [neg = sa desno],y start [neg = iz baze],opacitet, prozirna boja na objedinjenoj slici)');
 define('PRODUCT_IMAGE_POPUP_MERGE_TITLE' , 'Iska&#269;u&#263;i meni slike proizvoda: objedinjavanje');
 define('PRODUCT_IMAGE_POPUP_MERGE_DESC' , 'Iska&#269;u&#263;i meni slike proizvoda: objedinjavanje<br /><br />Podrazumevane vrednosti: (overlay.gif,10,-50,60,FF0000)<br /><br />slika prekrivne objedinjavanja<br />Kori&#353;&#263;enje:<br />(slika za objedinjavanje,x start [neg = sa desno],y start [neg = iz baze],opacitet, prozirna boja na objedinjenoj slici)');
+
+define('PRODUCT_IMAGE_MINI_MERGE_TITLE' , 'Mini slike proizvoda: Spoji<br /><img src="images/config_merge.gif">');
+define('PRODUCT_IMAGE_MINI_MERGE_DESC' , 'Mini slike proizvoda: Spoji<br /><br />Podrazumevana vrednost: (overlay.gif, 10, -50,60, FF0000) <br/> <br/> preklopljena slika za spajanje <br/> Upotreba: <br/> (spojite sliku, x po&ccaron;etak [neg = s desne strane] ,y po&ccaron;etak [neg = od po&ccaron;etka], prozirnost, prozirna boja na slici za spajanje)');
+
+define('PRODUCT_IMAGE_MIDI_MERGE_TITLE' , 'Midi slike proizvoda: Spoji');
+define('PRODUCT_IMAGE_MIDI_MERGE_DESC' , 'Midi slike proizvoda: Spoji<br /><br />Podrazumevana vrednost: (overlay.gif, 10, -50,60, FF0000) <br/> <br/> preklopljena slika za spajanje <br/> Upotreba: <br/> (spojite sliku, x po&ccaron;etak [neg = s desne strane] ,y po&ccaron;etak [neg = od po&ccaron;etka], prozirnost, prozirna boja na slici za spajanje)');
+
 define('IMAGE_MANIPULATOR_TITLE','GDlib proces');
 define('IMAGE_MANIPULATOR_DESC','Slikovni manipulator za GD2 or GD1<br /><br /><b>BELE&#352;KA:</b> image_manipulator_GD2_advanced.php podr&#382;ava transparentni format PNG\s');
 define('ACCOUNT_GENDER_TITLE' , 'Oslovljavanje');
@@ -847,4 +897,15 @@ define('ADMIN_START_TAB_SELECTED_TITLE', 'Kartice na po&#269;etnoj stranici');
 define('ADMIN_START_TAB_SELECTED_DESC', 'Koja kartica na po&#269;etnu stranicu bi trebalo da bude izabrana po podrazumevanoj vrednosti?');
 
 define('CACHE_LIFETIME_NOTE', '<b>Pa&#382;nja:</b> Ako je ke&#353; memorija aktivna, promene &#263;e biti vidljice u prodavnici posle isteka &#382;ivotnog veka ke&#353;a!');
+
+define('SHOW_SHIPPING_MODULE_TITLE_TITLE' , 'Naslov tro&scaron;kova dostave');
+define('SHOW_SHIPPING_MODULE_TITLE_DESC' , 'Odaberite naslov tro&scaron;kova dostave u ukupnoj porud&zcaron;bini');
+define('CUSTOM_SHIPPING_TITLE_TITLE' , 'Tro&scaron;kovi dostave pojedina&ccaron;nog naslova');
+define('CUSTOM_SHIPPING_TITLE_DESC' , 'Unesite ime. Ovo pode&scaron;avanje se primenjuje samo ako su tro&scaron;kovi isporuke naslova postavljeni na &bdquo;Prilago&dstrok;eno&ldquo;.');
+define('CFG_TXT_SHIPPING_DEFAULT', 'Podrazumevano');
+define('CFG_TXT_SHIPPING_TITLE', 'Naslov');
+define('CFG_TXT_SHIPPING_CUSTOM', 'Custom');
+
+define('CAPITALIZE_ADDRESS_FORMAT_TITLE' , 'Adresa velikim slovima');
+define('CAPITALIZE_ADDRESS_FORMAT_DESC' , 'Prika&zcaron;ite imena dr&zcaron;ava i gradova velikim slovima');
 ?>

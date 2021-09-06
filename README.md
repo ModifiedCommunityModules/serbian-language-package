@@ -1,4 +1,4 @@
-# Module: Recover Cart Sales
+# Module: Serbian language package
 (DE): Modul: Serbisches Sprachpaket
 
 Source modified Forum: [SERBISCH FÜR MODIFIED ECOMMERCE SHOPSOFTWARE 2.X] https://www.modified-shop.org/forum/index.php?topic=41256.0
@@ -33,4 +33,4 @@ For this module, support can be asked in the [modified forum](https://www.modifi
 Licensed under GNU General Public License. Some rights reserved. See LICENSE, CONTRIBUTORS.md.
 
 ## Guidelines
-Modules published under the github organisation [ModifiedCommunityModules](https://github.com/) follow the guidelines under: https://github.com/ModifiedCommunityModules/guidelines
+Modules published under the github organisation [ModifiedCommunityModules](https://github.com/ModifiedCommunityModules) follow the guidelines under: https://github.com/ModifiedCommunityModules/guidelines

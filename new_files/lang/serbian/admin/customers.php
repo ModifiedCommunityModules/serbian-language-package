@@ -24,6 +24,7 @@ define('TABLE_HEADING_NEW_VALUE','Novi status');
 define('TABLE_HEADING_DATE_ADDED','Datum');
 define('TEXT_NO_CUSTOMER_HISTORY','--jo&#353; bez promena--');
 define('TABLE_HEADING_GROUPIMAGE','Icon');
+define('TABLE_HEADING_EDIT', 'Izmeni');
 define('ENTRY_MEMO','Bele&#353;ka');
 define('TEXT_DATE','Datum');
 define('TEXT_TITLE','Naslov');
@@ -49,4 +50,11 @@ define('WARNING_CUSTOMER_ALREADY_EXISTS', 'Nije mogu&#263;e promeniti grupu kupa
 define('TEXT_INFO_HEADING_STATUS_NEW_ORDER','Nova narud&#382;ba');
 define('TEXT_INFO_PAYMENT','Pla&#263;anje:');
 define('TEXT_INFO_SHIPPING','Isporuka:');
+define('TEXT_INFO_NEWSLETTER_AT_REGISTRATION', 'Bilten nakon registracije:');
+define('TEXT_INFO_NEWSLETTER_STATUS', 'Pretplaćen na bilten:');
+define('TEXT_ACTIVE_ELEMENT','Aktivni element');
+define('TEXT_MARKED_ELEMENTS','Ozna&ccaron;eni elementi');
+define('TEXT_INFO_HEADING_DELETE_ELEMENTS', 'Izbri&scaron;ite elemente');
+define('TEXT_INFO_HEADING_STATUS_ELEMENTS', 'Grupa kupaca elemenata');
+define('TEXT_DELETE_REVIEWS_ELEMENTS', 'Izbri&scaron;ite recenzije');
 ?>

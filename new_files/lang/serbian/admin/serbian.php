@@ -162,6 +162,8 @@ define('BOX_NEWSLETTER_RECIPIENTS', 'Primaoci biltena');
 define('BOX_DSGVO_EXPORT', 'GDPR Izvoz');
 define('BOX_SUPPORT', 'Podr&#353;ka');
 define('BOX_CACHING', 'Ke&#353;iranje');
+define('BOX_COOKIE_CONSENT', 'Pode&scaron;avanja kola&ccaron;i&cacute;a');
+define('BOX_SEMKNOX', 'Site Search 360 Pretraga proizvoda');
 
 define('TXT_GROUPS','<b>Grupe</b>:');
 define('TXT_SYSTEM','Sistem');
@@ -585,4 +587,5 @@ define('ONLY',' Sada samo ');
 define('FROM','iz ');
 define('YOU_SAVE','Vi &#269;ete sa&#269;uvati ');
 define('INSTEAD','Na&#353;a prethodna cena ');
+define('PULL_DOWN_DEFAULT', 'Izaberite');
 ?>
